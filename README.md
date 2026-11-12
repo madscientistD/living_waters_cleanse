@@ -8,7 +8,7 @@ Page folders match the live site's addresses (for example `/10-day-healing-retre
 | --- | --- | --- |
 | Homepage | `index.html` | Draft for client review |
 | 10-day cleanse and healing retreat | `10-day-healing-retreat/index.html` | Draft for client review |
-| Colon hydrotherapy | `colon-hydrotherapy/` | Not started |
+| Colon hydrotherapy | `colon-hydrotherapy/index.html` | Draft for client review |
 | What is a colonic? | `colon-hydrotherapy-what-is-it/` | Not started |
 | Contact | `contact/` | Not started |
 | Webinar: the 4 natural laws of healing | `four-natural-laws-of-healing/` | Not started |
@@ -27,6 +27,15 @@ Homepage:
 - [ ] Add the office email and the social profile links in the footer
 - [ ] Add the I-ACT member badge
 - [ ] Get a written OK from each client quoted in the testimonials
+
+Colon hydrotherapy page:
+- [ ] Fill in the four other first-timer package services
+- [ ] Add the 3-session package price and terms
+- [ ] Add the monthly membership price and what's included
+- [ ] Answer the FAQ items marked for David (prep, what to wear, total visit time, how often)
+- [ ] Review the "Your first colonic session" video for health claims before launch
+- [ ] Replace the photo placeholders (treatment table, soups and juices or team)
+- [ ] Paste the GoHighLevel contact form embed
 
 10-day retreat page:
 - [ ] Replace the photo placeholders (treatment room, team, workbook)
