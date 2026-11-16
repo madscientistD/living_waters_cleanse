@@ -30,7 +30,6 @@ Homepage:
 
 Colon hydrotherapy page:
 - [ ] Fill in the four other first-timer package services
-- [ ] Add the 3-session package price and terms
 - [ ] Add the monthly membership price and what's included
 - [ ] Answer the FAQ items marked for David (prep, what to wear, total visit time, how often)
 - [ ] Review the "Your first colonic session" video for health claims before launch
