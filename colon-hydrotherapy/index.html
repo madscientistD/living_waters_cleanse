@@ -271,9 +271,10 @@
   .timeline-steps li:last-child::after{display:none}
   .timeline-steps h3{font-size:19px;margin-bottom:8px}
   .timeline-steps p{font-size:16px;margin:0}
-  .video-wrap{max-width:560px;margin:56px auto 0}
+  .video-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;max-width:960px;margin:64px auto 0}
+  .video-text h3{font-size:24px}
+  .video-wrap{max-width:440px;width:100%;justify-self:start}
   .video-wrap video{width:100%;border-radius:var(--radius-lg);background:#000;box-shadow:var(--shadow);display:block;aspect-ratio:16/9}
-  .video-wrap p{text-align:center;font-weight:600;margin-top:12px}
   .prices{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
   .price-card{background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:28px 24px;display:flex;flex-direction:column}
   .price-card.featured{border-top:4px solid var(--green);background:var(--green-mist)}
@@ -324,7 +325,8 @@
   .faq details > div{padding:0 24px 20px}
   .faq details p{margin:0 0 8px}
   @media (max-width:960px){
-    .names,.history,.action-grid{grid-template-columns:1fr;gap:32px}
+    .names,.history,.action-grid,.video-row{grid-template-columns:1fr;gap:32px}
+    .video-wrap{max-width:none}
     .timeline-steps,.prices,.why,.science{grid-template-columns:1fr 1fr}
     .timeline-steps li::after{display:none}
     .single-quote blockquote{font-size:20px}
@@ -476,12 +478,19 @@
         <li><h3>Your private session</h3><p>Relax on a comfortable table while filtered, temperature-controlled water flows in gently by gravity, without pressure. The nozzle is smaller than a pencil and easy to insert. You set the pace from start to finish and release in peace, and your therapist is on call the whole time.</p></li>
         <li><h3>Rest and rehydrate</h3><p>We'll share simple tips for the rest of your day.</p></li>
       </ol>
-      <div class="video-wrap">
-        <video controls preload="metadata" playsinline poster="https://irp.cdn-website.com/bcd96eaa/dms3rep/multi/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29.v2.0000000.jpg">
-          <source src="https://vid.cdn-website.com/bcd96eaa/videos/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29-v.mp4" type="video/mp4">
-          Your browser can't play this video. <a href="https://vid.cdn-website.com/bcd96eaa/videos/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29-v.mp4">Watch it here.</a>
-        </video>
-        <p>Watch: your first colonic session</p>
+      <div class="video-row">
+        <div class="video-text">
+          <p class="eyebrow">See it before you book</p>
+          <h3>See how a session is set up</h3>
+          <p>Watch Wendy walk you through the quick setup of a colon hydrotherapy session and get your first look at the rectal nozzle. It's smaller than a pencil.</p>
+          <a class="text-link" href="tel:+12083789911">Questions? Call (208) 378-9911 →</a>
+        </div>
+        <div class="video-wrap">
+          <video controls preload="metadata" playsinline poster="https://irp.cdn-website.com/bcd96eaa/dms3rep/multi/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29.v2.0000000.jpg">
+            <source src="https://vid.cdn-website.com/bcd96eaa/videos/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29-v.mp4" type="video/mp4">
+            Your browser can't play this video. <a href="https://vid.cdn-website.com/bcd96eaa/videos/S2jkPMibRwqndpKdQdoc_your_first_colonic_session__1__591+%281%29-v.mp4">Watch it here.</a>
+          </video>
+        </div>
       </div>
     </div>
   </section>
